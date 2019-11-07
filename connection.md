@@ -1,5 +1,14 @@
 ### Database Connection
 
+```bash
+# One of the following:
+$ npm install --save pg pg-hstore # Postgres
+$ npm install --save mysql2
+$ npm install --save mariadb
+$ npm install --save sqlite3
+$ npm install --save tedious # Microsoft SQL Server
+```
+
 ```js
 let db_user = 'root',
     db_pass = '',
@@ -7,10 +16,17 @@ let db_user = 'root',
 
 const db = new Sequelize(db_name, db_user, db_pass, {
     host: 'localhost',
-    dialect: 'mysql',
+    dialect: 'mysql', /* one of 'mysql' | 'mariadb' | 'postgres' | 'mssql' */
     logging: false,
 })
 ```
+
+**Or Using Connection string**
+
+```js
+const sequelize = new Sequelize('mariadb://user:password@example.com:9821/database')
+```
+
 
 ### Check DB Connection
 
