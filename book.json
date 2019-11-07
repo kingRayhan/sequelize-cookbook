@@ -14,8 +14,8 @@
             "shortName": "sequelize-cookbook"
         },
         "edit-link": {
-            "base": "https://github.com/kingRayhan/sequelize-cookbook",
-            "label": "Edit This Page"
+            "base": "https://github.com/kingRayhan/sequelize-cookbook/edit/master",
+            "label": "Contribute on this page"
         }
     }
 }
