@@ -5,7 +5,7 @@
     "styles": {
         "website": "assets/styles/website.css"
     },
-    "plugins": ["prism", "-highlight", "disqus", "edit-link","contributors-each-page"],
+    "plugins": ["prism", "-highlight", "disqus", "edit-link","contributors-each-page","last-modified"],
     "pluginsConfig": {
         "prism": {
             "css": ["prismjs/themes/prism-okaidia.css"]
