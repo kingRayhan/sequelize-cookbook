@@ -1,0 +1,21 @@
+{
+    "title": "Sequelize cookbook",
+    "description": "This doc created for quickly get started with Sequelize api and save your from blotted bullshit official doc.",
+    "language": "en",
+    "styles": {
+        "website": "assets/styles/website.css"
+    },
+    "plugins": ["prism", "-highlight", "disqus", "edit-link"],
+    "pluginsConfig": {
+        "prism": {
+            "css": ["prismjs/themes/prism-okaidia.css"]
+        },
+        "disqus": {
+            "shortName": "sequelize-cookbook"
+        },
+        "edit-link": {
+            "base": "https://github.com/kingRayhan/sequelize-cookbook",
+            "label": "Edit This Page"
+        }
+    }
+}
