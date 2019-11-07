@@ -20,8 +20,7 @@
         "contributors-each-page": {
             "owner": "kingRayhan",
             "repository": "sequelize-cookbook",
-            "title": "Contributors",
-            "excluded": ["README.md"]
+            "title": "Contributors"
         }
     }
 }
